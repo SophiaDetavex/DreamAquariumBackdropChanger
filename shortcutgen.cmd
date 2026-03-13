@@ -1,4 +1,5 @@
 @echo off
+pushd %~dp0
 echo Making shortcut... please wait...
 powershell -Command "& {sleep 3}"
 cscript setupshortcut.vbs
